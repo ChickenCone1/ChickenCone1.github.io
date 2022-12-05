@@ -1,0 +1,53 @@
+﻿body {
+
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-image: url(./PNG/blue.jpg);
+    padding-top: 4em;
+
+}
+
+button {
+
+    margin: 4px;
+    padding: 2em;
+    border: none;
+    width: 20%;
+    background-color: orange;
+    color: black;
+    font-weight: bolder;
+    font-size: large;
+
+}
+
+#draw-card-btn {
+
+    display: none;
+
+}
+
+#game-name-el {
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    color: orange;
+    font-weight: bolder;
+
+}
+
+#result-el {
+
+    font-weight: bold;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+    font-size:large;
+
+}
+
+div, span {
+
+    
+    display: inline-block;
+    vertical-align:bottom; 
+}
